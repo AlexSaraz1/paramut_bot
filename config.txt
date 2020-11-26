@@ -1,0 +1,50 @@
+#######################################################################
+## Configuration file
+#######################################################################
+
+#######################################################################
+## Required Software - Specified the path of the executables
+#######################################################################
+
+## MANDATORY 
+# R (3.6.3)
+export R_PATH="R"
+# perl (v5.20.2)
+export PERL_PATH="perl"
+# python (v2.7.9)
+export PYTHON_PATH="python"
+# awk
+export AWK_PATH="awk"
+
+# bowtie2 (v2.4.1)
+export BOWTIE_PATH="bowtie2"
+# samtools (v1.10)
+export SAMTOOLS_PATH="samtools"
+
+
+#######################################################################
+## Required VARIABLES - Specified the options that will be used 
+#######################################################################
+
+# bowtie2 index : ref/TAIR10_chr_all_Cinsert
+export BOWTIE2_INDEX="./ref/TAIR10_chr_all_Cinsert"
+
+# ref for annotation files : ./Araport11_Annot/Araport11Annot_Cinsert.txt
+export ANNOT_BANK="./Araport11_Annot/Araport11Annot_Cinsert.txt"
+
+# min and max length for annotations graph : 18 26
+export MyMIN="18"
+export MyMAX="26"
+
+# annotation for src/hist_size_annot_compare.R : Cinsert
+export MyAnnot="Cinsert"
+
+# list of annotation name for profil : Cinsert.txt (contain Cinsert)
+export MyAnnotForProfil="./Araport11_Annot/Cinsert.txt"
+# gff file use for profil : ./Araport11_Annot/Cinsert.gff (contain Cinsert)
+export GffAnnotForProfil="./Araport11_Annot/Cinsert.gff"
+
+# genomic position for the 5primNucFromGff specific of Cinsert (here -c Cinsert -b 1 -e 5000 )
+export MyGenomic_C="Cinsert"
+export MyGenomic_St="1"
+export MyGenomic_Sp="5000"

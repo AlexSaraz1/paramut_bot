@@ -1,0 +1,17 @@
+annot	color
+tRNA	gray88
+rRNA	gray58
+snoRNA	gold2
+snRNA	gold4
+miRNA_primary_transcript	cornflowerblue
+tasiRNA	deepskyblue3
+ncRNA	darkolivegreen1
+lnc_RNA	darkolivegreen4
+antisense_lncRNA	forestgreen
+antisense_RNA	darkgreen
+pseudogene	orangered
+transposable_element	red3
+gene	darkslategrey
+Repeat	tan
+Cinsert	cyan3
+non-annotated	cornsilk4

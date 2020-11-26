@@ -1,0 +1,17 @@
+##
+#Name	priority	file_pathway
+tRNA	1	Araport11_Annot/tRNA_Araport11_GFF3.gff
+rRNA	2	Araport11_Annot/rRNA_Araport11_GFF3.gff
+snoRNA	3	Araport11_Annot/snoRNA_Araport11_GFF3.gff
+snRNA	4	Araport11_Annot/snRNA_Araport11_GFF3.gff
+miRNA_primary_transcript	5	Araport11_Annot/miRNAprimTranscript_Araport11_GFF3.gff
+tasiRNA	6	Araport11_Annot/tasiRNA_Araport11_GFF3.gff
+ncRNA	7	Araport11_Annot/ncRNA_Araport11_GFF3.gff
+lnc_RNA	8	Araport11_Annot/lncRNA_Araport11_GFF3.gff
+antisense_lncRNA	9	Araport11_Annot/antisenseLncRNA_Araport11_GFF3.gff
+antisense_RNA	10	Araport11_Annot/antisenseRNA_Araport11_GFF3.gff
+pseudogene	11	Araport11_Annot/pseudo_Araport11_GFF3.gff
+transposable_element	12	Araport11_Annot/transposableElement_Araport11_GFF3.gff
+gene	13	Araport11_Annot/genes_Araport11_GFF3.gff
+Repeat	14	Araport11_Annot/TAIR10_repeatMask.gff
+Cinsert	15	Araport11_Annot/Cinsert.gff
