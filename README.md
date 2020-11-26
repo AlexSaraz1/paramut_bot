@@ -53,7 +53,6 @@ gunzip Araport11_Annot/*.gff.gzip
 sh ./paramut_bot.sh <myFastqFile>
 ```
 
----
 An example/test .fastq file, test1mReads.fastq, containing 1millions trimmed reads is included in the `./data` directory.
 
 ```
